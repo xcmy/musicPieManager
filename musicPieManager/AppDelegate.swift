@@ -7,15 +7,58 @@
 //
 
 import UIKit
+import Alamofire
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        IQKeyboardManager.sharedManager().enable = true
+        
+        let nav = UINavigationController(rootViewController:JDMainVC())
+        nav.navigationBar.isHidden = true
+        self.window?.backgroundColor = UIColor.white
+        self.window?.rootViewController = nav
+        
+        
+        let myString = "2"
+        let myInt = (myString as NSString).integerValue
+        
+        
+        let parameters: Parameters = ["branchid": "9",
+                                      "studentid":"2",
+                                      "payamount":"300",
+                                      "tradetype":"admin",
+                                      "mark":"liuyang",
+                                      "orderCourse":["courseid":myInt,
+                                                     "minute":"45",
+                                                    ]
+                                      ]
+        
+//        
+//        Alamofire.request("http://192.168.0.115:8080/musicPie/admin/Order/v1/add", method: .post,parameters: parameters).validate().responseJSON { (response ) in
+//            print(response.result.error ?? "")
+//        }
+//
+        
+        
+//        let parameters: Parameters = ["organizationid": "2",
+//                                      "branchname":"dfghjk",
+//        ]
+//        
+//        
+//        Alamofire.request("http://192.168.0.115:8080/musicPie/admin/organizationBranch/v1/add", method: .post,parameters: parameters).validate().responseJSON { (response ) in
+//            print(response.result.value ?? "")
+//        }
+        
+        
         return true
     }
 

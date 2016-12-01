@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+
+use_frameworks!
+
+target 'musicPieManager' do
+
+
+  pod 'Alamofire', '~> 4.0'
+  pod 'ReactiveCocoa', '5.0.0-alpha.3'
+  pod 'IQKeyboardManagerSwift'
+  
+end
+

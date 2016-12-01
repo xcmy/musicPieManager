@@ -1,0 +1,6 @@
+framework module Pods_musicPieManager {
+  umbrella header "Pods-musicPieManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

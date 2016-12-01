@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C5EAC3188163C65FE06C406 /* Pods_musicPieManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B86DD5F9A197EC1D1621C1C /* Pods_musicPieManager.framework */; };
+		CD05EFCA1DED979D004207FE /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05EFC91DED979D004207FE /* select.png */; };
+		CD0944961DEE647200A3AA84 /* alter.png in Resources */ = {isa = PBXBuildFile; fileRef = CD0944951DEE647200A3AA84 /* alter.png */; };
+		CD0944981DEE66BA00A3AA84 /* JDSetAndAlterInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0944971DEE66BA00A3AA84 /* JDSetAndAlterInfoVC.swift */; };
 		CD440EAC1DE59E01000A85D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD440EAB1DE59E01000A85D9 /* AppDelegate.swift */; };
-		CD440EAE1DE59E01000A85D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD440EAD1DE59E01000A85D9 /* ViewController.swift */; };
 		CD440EB11DE59E01000A85D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD440EAF1DE59E01000A85D9 /* Main.storyboard */; };
 		CD440EB31DE59E01000A85D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD440EB21DE59E01000A85D9 /* Assets.xcassets */; };
 		CD440EB61DE59E01000A85D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD440EB41DE59E01000A85D9 /* LaunchScreen.storyboard */; };
 		CD440EC11DE59E01000A85D9 /* musicPieManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD440EC01DE59E01000A85D9 /* musicPieManagerTests.swift */; };
 		CD440ECC1DE59E02000A85D9 /* musicPieManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD440ECB1DE59E02000A85D9 /* musicPieManagerUITests.swift */; };
+		CD440EDB1DE59F38000A85D9 /* prefixHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD440EDA1DE59F38000A85D9 /* prefixHeader.swift */; };
+		CD68F8021DE6CC6800BDC7E9 /* JDLogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68F8011DE6CC6800BDC7E9 /* JDLogInVC.swift */; };
+		CD68F8071DE6DAA100BDC7E9 /* JDFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68F8061DE6DAA100BDC7E9 /* JDFormView.swift */; };
+		CD68F80C1DE6E4EF00BDC7E9 /* JDTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68F80B1DE6E4EF00BDC7E9 /* JDTool.swift */; };
+		CD68F8141DE6F54A00BDC7E9 /* JDMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68F8131DE6F54A00BDC7E9 /* JDMainVC.swift */; };
+		CD852ECD1DE7D45900E7B894 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852ECC1DE7D45900E7B894 /* bg.png */; };
+		CD852ECF1DE8083D00E7B894 /* JDMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD852ECE1DE8083D00E7B894 /* JDMenuCell.swift */; };
+		CD852ED31DE8164700E7B894 /* JDGradualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD852ED21DE8164700E7B894 /* JDGradualView.swift */; };
+		CD852ED51DE8270A00E7B894 /* menuBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852ED41DE8270A00E7B894 /* menuBtn.png */; };
+		CD852EE21DE8382400E7B894 /* menu1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852ED71DE8382400E7B894 /* menu1.png */; };
+		CD852EE31DE8382400E7B894 /* menu10.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852ED81DE8382400E7B894 /* menu10.png */; };
+		CD852EE41DE8382400E7B894 /* menu11.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852ED91DE8382400E7B894 /* menu11.png */; };
+		CD852EE51DE8382400E7B894 /* menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852EDA1DE8382400E7B894 /* menu2.png */; };
+		CD852EE61DE8382400E7B894 /* menu3.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852EDB1DE8382400E7B894 /* menu3.png */; };
+		CD852EE71DE8382400E7B894 /* menu4.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852EDC1DE8382400E7B894 /* menu4.png */; };
+		CD852EE81DE8382400E7B894 /* menu5.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852EDD1DE8382400E7B894 /* menu5.png */; };
+		CD852EE91DE8382400E7B894 /* menu6.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852EDE1DE8382400E7B894 /* menu6.png */; };
+		CD852EEA1DE8382400E7B894 /* menu7.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852EDF1DE8382400E7B894 /* menu7.png */; };
+		CD852EEB1DE8382400E7B894 /* menu8.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852EE01DE8382400E7B894 /* menu8.png */; };
+		CD852EEC1DE8382400E7B894 /* menu9.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852EE11DE8382400E7B894 /* menu9.png */; };
+		CD852EEE1DE848B000E7B894 /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = CD852EED1DE848B000E7B894 /* backBtn.png */; };
+		CDC30F211DEBC52D008D98FE /* JDTextFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC30F201DEBC52D008D98FE /* JDTextFView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +59,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B86DD5F9A197EC1D1621C1C /* Pods_musicPieManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_musicPieManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD05EFC91DED979D004207FE /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
+		CD0944951DEE647200A3AA84 /* alter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alter.png; sourceTree = "<group>"; };
+		CD0944971DEE66BA00A3AA84 /* JDSetAndAlterInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDSetAndAlterInfoVC.swift; sourceTree = "<group>"; };
 		CD440EA81DE59E01000A85D9 /* musicPieManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicPieManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD440EAB1DE59E01000A85D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD440EAD1DE59E01000A85D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD440EB01DE59E01000A85D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD440EB21DE59E01000A85D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD440EB51DE59E01000A85D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +75,30 @@
 		CD440EC71DE59E01000A85D9 /* musicPieManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicPieManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD440ECB1DE59E02000A85D9 /* musicPieManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPieManagerUITests.swift; sourceTree = "<group>"; };
 		CD440ECD1DE59E02000A85D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD440EDA1DE59F38000A85D9 /* prefixHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = prefixHeader.swift; sourceTree = "<group>"; };
+		CD68F8011DE6CC6800BDC7E9 /* JDLogInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDLogInVC.swift; sourceTree = "<group>"; };
+		CD68F8061DE6DAA100BDC7E9 /* JDFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDFormView.swift; sourceTree = "<group>"; };
+		CD68F80B1DE6E4EF00BDC7E9 /* JDTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDTool.swift; sourceTree = "<group>"; };
+		CD68F8131DE6F54A00BDC7E9 /* JDMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDMainVC.swift; sourceTree = "<group>"; };
+		CD852ECC1DE7D45900E7B894 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		CD852ECE1DE8083D00E7B894 /* JDMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDMenuCell.swift; sourceTree = "<group>"; };
+		CD852ED21DE8164700E7B894 /* JDGradualView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDGradualView.swift; sourceTree = "<group>"; };
+		CD852ED41DE8270A00E7B894 /* menuBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuBtn.png; sourceTree = "<group>"; };
+		CD852ED71DE8382400E7B894 /* menu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu1.png; sourceTree = "<group>"; };
+		CD852ED81DE8382400E7B894 /* menu10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu10.png; sourceTree = "<group>"; };
+		CD852ED91DE8382400E7B894 /* menu11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu11.png; sourceTree = "<group>"; };
+		CD852EDA1DE8382400E7B894 /* menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu2.png; sourceTree = "<group>"; };
+		CD852EDB1DE8382400E7B894 /* menu3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu3.png; sourceTree = "<group>"; };
+		CD852EDC1DE8382400E7B894 /* menu4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu4.png; sourceTree = "<group>"; };
+		CD852EDD1DE8382400E7B894 /* menu5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu5.png; sourceTree = "<group>"; };
+		CD852EDE1DE8382400E7B894 /* menu6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu6.png; sourceTree = "<group>"; };
+		CD852EDF1DE8382400E7B894 /* menu7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu7.png; sourceTree = "<group>"; };
+		CD852EE01DE8382400E7B894 /* menu8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu8.png; sourceTree = "<group>"; };
+		CD852EE11DE8382400E7B894 /* menu9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu9.png; sourceTree = "<group>"; };
+		CD852EED1DE848B000E7B894 /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
+		CDC30F201DEBC52D008D98FE /* JDTextFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDTextFView.swift; sourceTree = "<group>"; };
+		EC80B534E13382B1932FACC9 /* Pods-musicPieManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musicPieManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-musicPieManager/Pods-musicPieManager.release.xcconfig"; sourceTree = "<group>"; };
+		F123142634183005E3C5054C /* Pods-musicPieManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-musicPieManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-musicPieManager/Pods-musicPieManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C5EAC3188163C65FE06C406 /* Pods_musicPieManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +127,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67BFCD083E94484097592010 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F123142634183005E3C5054C /* Pods-musicPieManager.debug.xcconfig */,
+				EC80B534E13382B1932FACC9 /* Pods-musicPieManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCB3587A3924DD3DA526DB85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B86DD5F9A197EC1D1621C1C /* Pods_musicPieManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD440E9F1DE59E01000A85D9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +151,8 @@
 				CD440EBF1DE59E01000A85D9 /* musicPieManagerTests */,
 				CD440ECA1DE59E01000A85D9 /* musicPieManagerUITests */,
 				CD440EA91DE59E01000A85D9 /* Products */,
+				67BFCD083E94484097592010 /* Pods */,
+				BCB3587A3924DD3DA526DB85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +170,13 @@
 			isa = PBXGroup;
 			children = (
 				CD440EAB1DE59E01000A85D9 /* AppDelegate.swift */,
-				CD440EAD1DE59E01000A85D9 /* ViewController.swift */,
-				CD440EAF1DE59E01000A85D9 /* Main.storyboard */,
-				CD440EB21DE59E01000A85D9 /* Assets.xcassets */,
-				CD440EB41DE59E01000A85D9 /* LaunchScreen.storyboard */,
-				CD440EB71DE59E01000A85D9 /* Info.plist */,
+				CD68F8011DE6CC6800BDC7E9 /* JDLogInVC.swift */,
+				CD68F8131DE6F54A00BDC7E9 /* JDMainVC.swift */,
+				CD0944971DEE66BA00A3AA84 /* JDSetAndAlterInfoVC.swift */,
+				CD68F8051DE6DAA100BDC7E9 /* defineView */,
+				CD68F8081DE6E3A600BDC7E9 /* tool */,
+				CD852ECB1DE7D45900E7B894 /* picSource */,
+				CD440ED91DE59F11000A85D9 /* infoPlist */,
 			);
 			path = musicPieManager;
 			sourceTree = "<group>";
@@ -125,6 +199,68 @@
 			path = musicPieManagerUITests;
 			sourceTree = "<group>";
 		};
+		CD440ED91DE59F11000A85D9 /* infoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				CD440EAF1DE59E01000A85D9 /* Main.storyboard */,
+				CD440EB21DE59E01000A85D9 /* Assets.xcassets */,
+				CD440EB41DE59E01000A85D9 /* LaunchScreen.storyboard */,
+				CD440EB71DE59E01000A85D9 /* Info.plist */,
+				CD440EDA1DE59F38000A85D9 /* prefixHeader.swift */,
+			);
+			name = infoPlist;
+			sourceTree = "<group>";
+		};
+		CD68F8051DE6DAA100BDC7E9 /* defineView */ = {
+			isa = PBXGroup;
+			children = (
+				CD68F8061DE6DAA100BDC7E9 /* JDFormView.swift */,
+				CDC30F201DEBC52D008D98FE /* JDTextFView.swift */,
+				CD852ECE1DE8083D00E7B894 /* JDMenuCell.swift */,
+				CD852ED21DE8164700E7B894 /* JDGradualView.swift */,
+			);
+			path = defineView;
+			sourceTree = "<group>";
+		};
+		CD68F8081DE6E3A600BDC7E9 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				CD68F80B1DE6E4EF00BDC7E9 /* JDTool.swift */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		CD852ECB1DE7D45900E7B894 /* picSource */ = {
+			isa = PBXGroup;
+			children = (
+				CD852ED61DE8382400E7B894 /* menu */,
+				CD852ED41DE8270A00E7B894 /* menuBtn.png */,
+				CD05EFC91DED979D004207FE /* select.png */,
+				CD852EED1DE848B000E7B894 /* backBtn.png */,
+				CD852ECC1DE7D45900E7B894 /* bg.png */,
+				CD0944951DEE647200A3AA84 /* alter.png */,
+			);
+			path = picSource;
+			sourceTree = "<group>";
+		};
+		CD852ED61DE8382400E7B894 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				CD852ED71DE8382400E7B894 /* menu1.png */,
+				CD852ED81DE8382400E7B894 /* menu10.png */,
+				CD852ED91DE8382400E7B894 /* menu11.png */,
+				CD852EDA1DE8382400E7B894 /* menu2.png */,
+				CD852EDB1DE8382400E7B894 /* menu3.png */,
+				CD852EDC1DE8382400E7B894 /* menu4.png */,
+				CD852EDD1DE8382400E7B894 /* menu5.png */,
+				CD852EDE1DE8382400E7B894 /* menu6.png */,
+				CD852EDF1DE8382400E7B894 /* menu7.png */,
+				CD852EE01DE8382400E7B894 /* menu8.png */,
+				CD852EE11DE8382400E7B894 /* menu9.png */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD440ED01DE59E02000A85D9 /* Build configuration list for PBXNativeTarget "musicPieManager" */;
 			buildPhases = (
+				7BAA8943FFCB1340A9767F50 /* [CP] Check Pods Manifest.lock */,
 				CD440EA41DE59E01000A85D9 /* Sources */,
 				CD440EA51DE59E01000A85D9 /* Frameworks */,
 				CD440EA61DE59E01000A85D9 /* Resources */,
+				1DA35DE8F90B35511EA43DC0 /* [CP] Embed Pods Frameworks */,
+				178B01259DC5D9993122FA36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +332,7 @@
 				TargetAttributes = {
 					CD440EA71DE59E01000A85D9 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P67894NEV2;
 						ProvisioningStyle = Automatic;
 					};
 					CD440EBB1DE59E01000A85D9 = {
@@ -232,8 +372,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD852EE51DE8382400E7B894 /* menu2.png in Resources */,
+				CD852EE31DE8382400E7B894 /* menu10.png in Resources */,
+				CD852EEA1DE8382400E7B894 /* menu7.png in Resources */,
+				CD852EE71DE8382400E7B894 /* menu4.png in Resources */,
+				CD852EE61DE8382400E7B894 /* menu3.png in Resources */,
+				CD852EE21DE8382400E7B894 /* menu1.png in Resources */,
+				CD852EEE1DE848B000E7B894 /* backBtn.png in Resources */,
 				CD440EB61DE59E01000A85D9 /* LaunchScreen.storyboard in Resources */,
+				CD852EE81DE8382400E7B894 /* menu5.png in Resources */,
+				CD05EFCA1DED979D004207FE /* select.png in Resources */,
 				CD440EB31DE59E01000A85D9 /* Assets.xcassets in Resources */,
+				CD852EE41DE8382400E7B894 /* menu11.png in Resources */,
+				CD852EEC1DE8382400E7B894 /* menu9.png in Resources */,
+				CD852ED51DE8270A00E7B894 /* menuBtn.png in Resources */,
+				CD0944961DEE647200A3AA84 /* alter.png in Resources */,
+				CD852ECD1DE7D45900E7B894 /* bg.png in Resources */,
+				CD852EEB1DE8382400E7B894 /* menu8.png in Resources */,
+				CD852EE91DE8382400E7B894 /* menu6.png in Resources */,
 				CD440EB11DE59E01000A85D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +410,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		178B01259DC5D9993122FA36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-musicPieManager/Pods-musicPieManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DA35DE8F90B35511EA43DC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-musicPieManager/Pods-musicPieManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BAA8943FFCB1340A9767F50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD440EA41DE59E01000A85D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD440EAE1DE59E01000A85D9 /* ViewController.swift in Sources */,
+				CD68F80C1DE6E4EF00BDC7E9 /* JDTool.swift in Sources */,
+				CD68F8141DE6F54A00BDC7E9 /* JDMainVC.swift in Sources */,
+				CD440EDB1DE59F38000A85D9 /* prefixHeader.swift in Sources */,
+				CD68F8021DE6CC6800BDC7E9 /* JDLogInVC.swift in Sources */,
 				CD440EAC1DE59E01000A85D9 /* AppDelegate.swift in Sources */,
+				CDC30F211DEBC52D008D98FE /* JDTextFView.swift in Sources */,
+				CD852ED31DE8164700E7B894 /* JDGradualView.swift in Sources */,
+				CD0944981DEE66BA00A3AA84 /* JDSetAndAlterInfoVC.swift in Sources */,
+				CD68F8071DE6DAA100BDC7E9 /* JDFormView.swift in Sources */,
+				CD852ECF1DE8083D00E7B894 /* JDMenuCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +622,10 @@
 		};
 		CD440ED11DE59E02000A85D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F123142634183005E3C5054C /* Pods-musicPieManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P67894NEV2;
 				INFOPLIST_FILE = musicPieManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JD.musicPieManager;
@@ -422,8 +636,10 @@
 		};
 		CD440ED21DE59E02000A85D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC80B534E13382B1932FACC9 /* Pods-musicPieManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P67894NEV2;
 				INFOPLIST_FILE = musicPieManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JD.musicPieManager;
@@ -505,6 +721,7 @@
 				CD440ED21DE59E02000A85D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD440ED31DE59E02000A85D9 /* Build configuration list for PBXNativeTarget "musicPieManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +730,7 @@
 				CD440ED51DE59E02000A85D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD440ED61DE59E02000A85D9 /* Build configuration list for PBXNativeTarget "musicPieManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +739,7 @@
 				CD440ED81DE59E02000A85D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
